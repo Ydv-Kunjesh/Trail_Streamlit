@@ -65,4 +65,4 @@ st.markdown('''
     :red[Hey user!] :orange[We welcomed ] :green[you] :blue[on our] :violet[streamlit]
     :gray[Webapp] :rainbow[thnq For  Visiting].''')
 st.header('Here we are using the divider for the',divider='rainbow')
-st.slider(0,100)
+st.slider("This is a slider", 0, 100, (25, 75))
