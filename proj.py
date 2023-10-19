@@ -62,6 +62,7 @@ st.progress(10)
 # x = st.text_input('Enter your Name')
 # st.write(x)
 st.markdown('''
-    :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
-    :gray[pretty] :rainbow[colors].''')
-
+    :red[Hey user!] :orange[We welcomed ] :green[you] :blue[on our] :violet[streamlit]
+    :gray[Webapp] :rainbow[thnq For  Visiting].''')
+st.header('Here we are using the divider for the',divider='rainbow')
+st.slider(0,100)
