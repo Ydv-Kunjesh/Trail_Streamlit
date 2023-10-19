@@ -58,9 +58,9 @@ if st.button('click to read this dataset'):st.table(k)
 st.multiselect('Enter sub',['HTML','CSS','JS','PHP','PYT'])
 st.balloons()
 st.progress(10)
-with st.spinner('loading'):time.sleep(5)
-x = st.text_input('Enter your Name')
-st.write(x)
+# with st.spinner('loading'):time.sleep(5)
+# x = st.text_input('Enter your Name')
+# st.write(x)
 st.markdown('''
     :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
     :gray[pretty] :rainbow[colors].''')
